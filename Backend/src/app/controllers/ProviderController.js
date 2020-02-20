@@ -8,7 +8,8 @@ class ProviderControllerr {
       attributes: ['id', 'name', 'email', 'avatar_id'],
       include: [{
         model: File,
-        as: 'avatar'
+        as: 'avatar',
+        attributes: ['name', 'path', 'url']
       }],
      });
 
