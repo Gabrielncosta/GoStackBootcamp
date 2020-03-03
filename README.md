@@ -1,4 +1,4 @@
-<!-- <h1 align="center">
+<h1 align="center">
 <br>
   <img src="logo.svg" alt="GoBarber" width="90">
 <br>
