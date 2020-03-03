@@ -40,8 +40,6 @@ A Node.js API built with Express and all the latest tools and best practices in 
 
 ## Prerequisites
 
-_In the next few weeks, I plan to include Docker directly in the repository with docker-compose, until there this step is required._
-
 To run this server you will need three containers running on your machine.
 
 To do so, you will need to run the following commands:
@@ -54,9 +52,9 @@ _Remember: If you restart your machine, you will need to start again the server 
 
 ## Getting started
 
-_Consider checking out the FrontEnd [repository](https://github.com/jpedroschmitz/gobarber)!_
+_Consider checking out the FrontEnd [repository](https://github.com/Gabrielncosta/gostack-barber)!_
 
-1. Clone this repo using `https://github.com/jpedroschmitz/gobarber-api.git`
+1. Clone this repo using `https://github.com/Gabrielncosta/gostack-barber-api.git`
 2. Move to the appropriate directory: `cd gobarber-api`.<br />
 3. Run `yarn` to install dependencies.<br />
 4. Copy the `.env.example` file and rename it to `.env`.<br/>
