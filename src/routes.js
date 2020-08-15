@@ -10,6 +10,8 @@ import AppointmentController from './app/controllers/AppointmentController';
 import ScheduleController from './app/controllers/ScheduleController';
 import NotificationController from './app/controllers/NotificationController';
 
+import validateUserStore from './app/validators/UserStore';
+
 import authMiddleware from './app/middlewares/auth';
 import AvailableController from './app/controllers/AvailableController';
 
@@ -17,7 +19,7 @@ const routes = new Router();
 const upload = multer(multerConfig);
 
 
-routes.post('/users', UserController.store);
+routes.post('/users', validateUserStore, UserController.store);
 routes.post('/sessions', SessionController.store);
 
 routes.use(authMiddleware);
