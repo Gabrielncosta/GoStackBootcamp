@@ -18,6 +18,10 @@ class Cache {
 
     return cached ? JSON.parse(cached) : null;
   }
+
+  invalidate(key) {
+    return this.redis.del(key);
+  }
 }
 
 export default new Cache();
